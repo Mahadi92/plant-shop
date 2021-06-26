@@ -5,11 +5,11 @@ import headerSofa from '../../images/sofa-lamp.png'
 
 const Header = () => {
     return (
-        <header>
+        <header className="pb-5">
             <Navbar />
-            <div className="container h-100">
+            <div className="h-100">
                 <div className="row w-100 h-100">
-                    <div className="col-md-5 text-light">
+                    <div className="col-md-5 px-5 text-light">
                         <div className="mt-5">
                             <h1>Furniture that</h1>
                             <h1>everyone</h1>
@@ -18,12 +18,12 @@ const Header = () => {
                             </p>
                             <div className="mt-5">
                                 <button className="btn btn-custom px-4">Buy Now</button>
-                                <button className="btn rounded-pill text-light border border-white ms-3 px-4">Buy Now</button>
+                                <button className="btn rounded-pill text-light border border-white ms-3 px-4">Explore</button>
                             </div>
                         </div>
                     </div>
                     <div className="col-md-7 d-flex align-items-end">
-                        <img src={headerSofa} className="" width="130%" alt="" />
+                        <img src={headerSofa} className="w-100" width="" alt="" />
                     </div>
                 </div>
             </div>

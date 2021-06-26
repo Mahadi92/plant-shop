@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.color-primary{
+    color: #8B9E70;
+}
+
 .btn-custom{
     background: #2d4233;
     color: #fff;

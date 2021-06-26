@@ -2,7 +2,7 @@
 
 header{
     /* background: #8B9E70; */
-    background: linear-gradient(to bottom, #8B9E70 95%, #fff 5%);
+    background: linear-gradient(to bottom, #8B9E70 90%, #fff 10%);
     height: 100vh;
 }
 header h1{
