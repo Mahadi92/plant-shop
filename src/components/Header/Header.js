@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../Navbar/Navbar';
 import './Header.css';
+import headerSofa from '../../images/sofa-lamp.png'
 
 const Header = () => {
     return (
@@ -13,7 +14,6 @@ const Header = () => {
                             <h1>Furniture that</h1>
                             <h1>everyone</h1>
                             <h1>Loves</h1>
-
                             <p className="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae ea amet voluptate enim? Quidem, consectetur.
                             </p>
                             <div className="mt-5">
@@ -21,6 +21,9 @@ const Header = () => {
                                 <button className="btn rounded-pill text-light border border-white ms-3 px-4">Buy Now</button>
                             </div>
                         </div>
+                    </div>
+                    <div className="col-md-7 d-flex align-items-end">
+                        <img src={headerSofa} className="" width="130%" alt="" />
                     </div>
                 </div>
             </div>
